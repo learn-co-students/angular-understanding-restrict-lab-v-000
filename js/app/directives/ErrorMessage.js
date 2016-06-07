@@ -1,5 +1,6 @@
 function ErrorMessage() {
-	return {
+	return {	
+  restrict: 'A',
 		template: '<div>Oh no, an error occurred!</div>'
 	};
 }
