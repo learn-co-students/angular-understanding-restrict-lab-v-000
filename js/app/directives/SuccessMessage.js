@@ -1,6 +1,7 @@
 function SuccessMessage() {
 	return {
-		template: '<div>Woohoo! Success!</div>'
+		restrict: 'E',
+		template: '<div>Woohoo! Success!</div>',
 	};
 }
 
